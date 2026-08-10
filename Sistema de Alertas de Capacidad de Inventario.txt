@@ -1,0 +1,12 @@
+Inicio
+	Definir stockActual, stockMin, stockMax Como Entero;
+	Definir requiereAuditoria Como Logico;
+	Escribir "Cual es el stock actual ?:";
+	Leer stockActual;
+	Escribir "Cual es el stock minimo ?:";
+	Leer stockMin;
+	Escribir "Cual es el stock maximo ?:";
+	Leer stockMax;
+	requiereAuditoria = stockActual <= stockMin o stockActual > stockMax;
+	Escribir "Requiere auditoria ?: ", requiereAuditoria;
+Fin
